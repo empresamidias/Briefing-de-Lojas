@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BriefingData, Step } from './types';
+import { BriefingData, Step } from './types.ts';
 import { 
   SALES_MODELS, 
   PAYMENT_CHANNELS,
@@ -11,7 +11,7 @@ import {
   QUANTITY_OPTIONS, 
   EXPECTATIONS, 
   STYLE_OPTIONS 
-} from './constants';
+} from './constants.tsx';
 
 const WEBHOOK_URL = 'https://n8n.srv1130748.hstgr.cloud/webhook/b404cd35-e738-4c83-a7cd-25ab677f70b0';
 
